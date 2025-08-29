@@ -1,4 +1,5 @@
-# 🛡️ Cybersecurity Projects
+# 🛡️ Cybersecurity Projects ![Cybersecurity Project Runner](https://github.com/CyberVishal/Cybersecurity-Projects/actions/workflows/run_cybersec.yml/badge.svg)
+
 
 Welcome to my collection of **cybersecurity projects**! 🚀  
 As a B.Tech student specializing in cybersecurity, I’m building projects to showcase my skills in **Python, networking, and ethical hacking** concepts.
@@ -25,7 +26,6 @@ As a B.Tech student specializing in cybersecurity, I’m building projects to sh
 - 🌍 **GitHub**: [CyberVishal](https://github.com/CyberVishal)  
 - 💼 **LinkedIn**: [Vishal Sandilya](https://www.linkedin.com/in/vishal-sandilya-40b9491b0)  
 
---- ![Cybersecurity Project Runner](https://github.com/CyberVishal/Cybersecurity-Projects/actions/workflows/run_cybersec.yml/badge.svg)
-
+--- 
 
 ⭐ **If you like my work, don’t forget to give this repo a star!**

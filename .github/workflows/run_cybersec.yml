@@ -3,7 +3,7 @@ name: Cybersecurity Project Runner
 on:
   push:
     paths:
-      - 'scripts/**'     # Or just '**.py' if scripts are in root
+      - '**.py'     # Or just '**.py' if scripts are in root
 
 jobs:
   run-scripts:

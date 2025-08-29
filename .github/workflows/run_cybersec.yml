@@ -1,0 +1,30 @@
+name: Cybersecurity Project Runner
+
+on:
+  push:
+    paths:
+      - 'scripts/**'     # Or just '**.py' if scripts are in root
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run all Python scripts
+      run: |
+        # Check all .py files in repo or scripts folder
+        for file in *.py scripts/*.py; do
+          if [ -f "$file" ]; then
+            echo "------------------------------"
+            echo "Running $file"
+            python "$file" || echo "⚠️ Error running $file"
+          fi
+        done
